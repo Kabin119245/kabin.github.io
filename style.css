@@ -1,0 +1,152 @@
+*{
+    margin: auto;
+    padding: auto;
+    text-decoration: none;
+}
+.navigation {
+    height: 100px;
+    /* background-color: rgb(94, 94, 239); */
+    display: flex;
+    
+   
+}
+hr{
+  margin-top: 5px;
+}
+
+.navleft {
+    /* background-color: aqua; */
+    width: 60%;
+    display: flex;
+
+}
+
+.navleft img {
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 15px;
+
+}
+
+.clztext {
+    margin-left: 50px;
+}
+
+.navright {
+    /* background-color: aquamarine; */
+    width: 60%;
+
+}
+.navright ul{
+    display: flex;
+   /* align-items: center; */
+   justify-content: center;
+   margin-top: 7px;
+  
+}
+.navright ul li {
+    
+    padding: 25px;
+    text-decoration: none;
+    list-style-type: none;
+   
+}
+.navright ul li a{
+    font-size: 22px;
+    font-weight: bold;
+    
+}
+
+  .bodymain{
+    /* background-color: rgb(234, 230, 226); */
+    height: 630px;
+  }
+  .mainimage{
+    background-image: url('bg.jpg');
+    height: 630px;
+   
+    margin-top: 10px;
+  }
+  .conten{
+    color: white;
+    margin-left: 320px;
+    padding-top: 175px;
+    /* padding-bottom: 20px; */
+    
+  }
+  .conten h1{
+    margin-bottom: 10px;
+  }
+  
+  /* .mainimage img{
+    height: 600px;
+    /* margin-left: 300px; */
+    
+    /* width: 100%;
+    opacity: 0.9; */
+    
+    
+  
+  .lower{
+    /* background-color: rgb(229, 229, 36); */
+   display: flex;
+  
+     height: 200px;
+    margin-top: 20px;
+    padding: 20px;
+  }
+  .image img{
+    height: 200px;
+  }
+   .contact{
+   
+    margin-top: 20px;
+
+  }
+  .registration{
+   
+    margin-top: 20px; 
+  } 
+  .footer{
+    background-color: rgb(214, 33, 33);
+   height: 100px;
+  }
+  .footer h1{
+    margin-left: 650px;
+    
+  }
+  .bg{
+    background-image: url('R.jpg');
+  }
+  .detail{
+  
+    height: 240px;
+    display: flex;
+  }
+  .details{
+    /* border: 2px solid black; */
+    width: 33.3333%;
+    height: 240px; ;
+    
+  }
+  .detail h1{
+    margin-left: 140px;
+   
+  }
+  /* .contact{
+    border: 2px solid black;
+  }
+  .registration{
+    border: 2px solid black;
+  }
+  .ourwork{
+    border: 2px solid black;
+  } */
