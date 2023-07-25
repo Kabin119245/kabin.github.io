@@ -38,11 +38,22 @@ textarea {
   padding: 20px;
   background-color: #ffffff;
   border-radius: 20px;
-  margin: 10px;
+  margin: 20px;
+  box-shadow: 2px 2px 5px 5px #e7e7e7;
+}
+.rounded_card2 {
+  padding: 20px;
+  background-color: var(--lightprimary);
+  border-radius: 20px;
+  margin: 20px;
   box-shadow: 2px 2px 5px 5px #e7e7e7;
 }
 
 .rounded_card:hover {
+  cursor: pointer;
+  background-color: #e7e7e7;
+}
+.rounded_card2:hover {
   cursor: pointer;
   background-color: #e7e7e7;
 }
