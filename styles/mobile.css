@@ -1,0 +1,34 @@
+@media screen and (max-width: 480px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+  .flex_container {
+    flex-direction: column;
+  }
+
+  .rounded_card {
+    max-width: 100%;
+  }
+  .profile_image {
+    max-width: 80%;
+    height: 300px;
+    width: 1000px;
+    border-radius: 50%;
+  }
+  html,
+  body {
+    padding: 10px;
+  }
+
+  .flex_container {
+    margin: 10px;
+  }
+
+  .contact_image {
+    margin-bottom: 20px;
+  }
+}
+#contactus {
+  width: auto;
+}
