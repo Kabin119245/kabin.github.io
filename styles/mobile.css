@@ -1,14 +1,40 @@
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   * {
     margin: 0px;
     padding: 0px;
   }
+  .navbar .nav_item {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: flex;
+  }
+
   .flex_container {
     flex-direction: column;
+    align-items: center;
+  }
+
+  .logo_wrapper {
+    margin-bottom: 20px;
+  }
+
+  .navbar {
+    justify-content: center;
+  }
+
+  .navbar.active .nav_item {
+    display: block;
   }
 
   .rounded_card {
     max-width: 100%;
+  }
+
+  .navbar {
+    max-width: 100%;
+    margin: auto;
   }
   .profile_image {
     max-width: 80%;
@@ -16,19 +42,23 @@
     width: 300px;
     border-radius: 50%;
   }
+
   html,
   body {
-    padding: 10px;
+    padding: 5px;
   }
 
   .flex_container {
-    margin: 10px;
+    margin: 5px;
   }
 
   .contact_image {
     margin-bottom: 20px;
   }
-}
+
+  #contactus {
+    width: auto;
+  }
   .social_media_icons {
     margin-top: 20px;
     text-align: center;
@@ -51,6 +81,7 @@
     color: var(--primary);
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   }
-#contactus {
-  width: auto;
+  .footer {
+    width: auto;
+  }
 }
