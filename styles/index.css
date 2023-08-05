@@ -18,6 +18,18 @@ a {
   text-decoration: none !important;
 }
 
+.hamburger-menu {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: var(--primary);
+  margin: 5px 0;
+}
+
 input,
 textarea {
   border: 1px solid #e7e7e7;
@@ -127,30 +139,6 @@ textarea {
 #contactus {
   width: 500px;
 }
-/* .row {
-  display: flex;
-  flex-wrap: wrap;
-  border-radius: 2px;
-  border: 1px solid orange;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-.column {
-  width: 100%;
-  border: 1px solid black;
-  padding: 10px;
-}
- h1 {
-  width: 100%;
-  text-align: center;
-  color: var(--primary);
-  font-size: 30px;
-}
-.card {
-  cursor: pointer;
-  box-shadow: 2px 2px 5px 5px #e7e7e7;
-  border-radius: 2px;
-} */
 
 .contact_image {
   background: url(../images/contact.jpg);
